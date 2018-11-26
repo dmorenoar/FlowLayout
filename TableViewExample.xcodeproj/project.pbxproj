@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA779D2B21AC059400AA2AB6 /* ViewControllerCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA779D2A21AC059400AA2AB6 /* ViewControllerCollection.swift */; };
+		FA779D2D21AC05D000AA2AB6 /* CollectionViewCellPersonalizada.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA779D2C21AC05D000AA2AB6 /* CollectionViewCellPersonalizada.swift */; };
+		FA779D2F21AC05D000AA2AB6 /* ViewControllerDetalleCelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA779D2E21AC05D000AA2AB6 /* ViewControllerDetalleCelda.swift */; };
+		FA779D3321AC05D000AA2AB6 /* ViewControllerCollectionViewScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA779D3221AC05D000AA2AB6 /* ViewControllerCollectionViewScroll.swift */; };
 		FADE156121A1764C000FF4AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE156021A1764C000FF4AF /* AppDelegate.swift */; };
 		FADE156321A1764C000FF4AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE156221A1764C000FF4AF /* ViewController.swift */; };
 		FADE156621A1764C000FF4AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADE156421A1764C000FF4AF /* Main.storyboard */; };
@@ -14,6 +18,10 @@
 		FADE156B21A1764D000FF4AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADE156921A1764D000FF4AF /* LaunchScreen.storyboard */; };
 		FADE157621A1764D000FF4AF /* TableViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE157521A1764D000FF4AF /* TableViewExampleTests.swift */; };
 		FADE158121A1764D000FF4AF /* TableViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE158021A1764D000FF4AF /* TableViewExampleUITests.swift */; };
+		FADE158F21A17705000FF4AF /* TableViewCellPersonalizada.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE158E21A17705000FF4AF /* TableViewCellPersonalizada.swift */; };
+		FADE159121A177AA000FF4AF /* Categoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE159021A177AA000FF4AF /* Categoria.swift */; };
+		FADE159321A177AA000FF4AF /* ViewControllerProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE159221A177AA000FF4AF /* ViewControllerProducts.swift */; };
+		FADE159521A177AA000FF4AF /* ViewControllerAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE159421A177AA000FF4AF /* ViewControllerAdmin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA779D2A21AC059400AA2AB6 /* ViewControllerCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCollection.swift; sourceTree = "<group>"; };
+		FA779D2C21AC05D000AA2AB6 /* CollectionViewCellPersonalizada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellPersonalizada.swift; sourceTree = "<group>"; };
+		FA779D2E21AC05D000AA2AB6 /* ViewControllerDetalleCelda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetalleCelda.swift; sourceTree = "<group>"; };
+		FA779D3221AC05D000AA2AB6 /* ViewControllerCollectionViewScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCollectionViewScroll.swift; sourceTree = "<group>"; };
 		FADE155D21A1764C000FF4AF /* TableViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADE156021A1764C000FF4AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FADE156221A1764C000FF4AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,10 @@
 		FADE157C21A1764D000FF4AF /* TableViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADE158021A1764D000FF4AF /* TableViewExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExampleUITests.swift; sourceTree = "<group>"; };
 		FADE158221A1764D000FF4AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADE158E21A17705000FF4AF /* TableViewCellPersonalizada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellPersonalizada.swift; sourceTree = "<group>"; };
+		FADE159021A177AA000FF4AF /* Categoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categoria.swift; sourceTree = "<group>"; };
+		FADE159221A177AA000FF4AF /* ViewControllerProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerProducts.swift; sourceTree = "<group>"; };
+		FADE159421A177AA000FF4AF /* ViewControllerAdmin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAdmin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +93,7 @@
 		FADE155421A1764B000FF4AF = {
 			isa = PBXGroup;
 			children = (
+				FA779D3221AC05D000AA2AB6 /* ViewControllerCollectionViewScroll.swift */,
 				FADE155F21A1764C000FF4AF /* TableViewExample */,
 				FADE157421A1764D000FF4AF /* TableViewExampleTests */,
 				FADE157F21A1764D000FF4AF /* TableViewExampleUITests */,
@@ -98,7 +115,14 @@
 			isa = PBXGroup;
 			children = (
 				FADE156021A1764C000FF4AF /* AppDelegate.swift */,
+				FA779D2E21AC05D000AA2AB6 /* ViewControllerDetalleCelda.swift */,
 				FADE156221A1764C000FF4AF /* ViewController.swift */,
+				FADE158E21A17705000FF4AF /* TableViewCellPersonalizada.swift */,
+				FA779D2C21AC05D000AA2AB6 /* CollectionViewCellPersonalizada.swift */,
+				FADE159221A177AA000FF4AF /* ViewControllerProducts.swift */,
+				FADE159421A177AA000FF4AF /* ViewControllerAdmin.swift */,
+				FA779D2A21AC059400AA2AB6 /* ViewControllerCollection.swift */,
+				FADE159021A177AA000FF4AF /* Categoria.swift */,
 				FADE156421A1764C000FF4AF /* Main.storyboard */,
 				FADE156721A1764C000FF4AF /* Assets.xcassets */,
 				FADE156921A1764D000FF4AF /* LaunchScreen.storyboard */,
@@ -256,7 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADE158F21A17705000FF4AF /* TableViewCellPersonalizada.swift in Sources */,
+				FADE159321A177AA000FF4AF /* ViewControllerProducts.swift in Sources */,
+				FA779D3321AC05D000AA2AB6 /* ViewControllerCollectionViewScroll.swift in Sources */,
+				FA779D2F21AC05D000AA2AB6 /* ViewControllerDetalleCelda.swift in Sources */,
+				FADE159121A177AA000FF4AF /* Categoria.swift in Sources */,
+				FA779D2B21AC059400AA2AB6 /* ViewControllerCollection.swift in Sources */,
+				FA779D2D21AC05D000AA2AB6 /* CollectionViewCellPersonalizada.swift in Sources */,
 				FADE156321A1764C000FF4AF /* ViewController.swift in Sources */,
+				FADE159521A177AA000FF4AF /* ViewControllerAdmin.swift in Sources */,
 				FADE156121A1764C000FF4AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
